@@ -1,0 +1,74 @@
+/* Contenedor principal */
+.form-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px 25px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Título del formulario */
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  /* Grupo de campos */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  /* Etiquetas */
+  .form-group label {
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  /* Inputs y textarea */
+  .form-group input,
+  .form-group textarea {
+    padding: 12px 15px;
+    border: 1.8px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    resize: vertical;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0,123,255,0.4);
+  }
+  
+  /* Textarea altura */
+  textarea {
+    min-height: 100px;
+  }
+  
+  /* Botón enviar */
+  .btn-submit {
+    width: 100%;
+    padding: 14px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0056b3;
+  }
+  
